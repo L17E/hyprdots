@@ -114,7 +114,28 @@ alias pl='pacman -Qs' # list installed package
 alias pa='pacman -Ss' # list availabe package
 alias pc='sudo pacman -Sc' # remove unused cache
 alias po='pacman -Qtdq | sudo pacman -Rns -' # remove unused packages, also try > pacman -Qqd | pacman -Rsu --print -
-alias vc='code'  # gui code editor
+
+alias vim=nvim
+alias v=nvim
+alias cls=clear
+alias q=exit
+
+# Enable Alt+Tab keybinding to select from previous commands
+bindkey -s '^[^I' '^[[C'
+
+# Alt keybindings in vim mode
+bindkey "^[w" forward-word
+bindkey "^[b" backward-word
+
+bindkey "^[h" backward-char
+bindkey "^[j" down-line-or-history
+bindkey "^[k" up-line-or-history
+bindkey "^[l" forward-char
+
+bindkey "^[c" kill-whole-line
+
+bindkey "^[[" beginning-of-line
+bindkey "^[]" end-of-line
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -122,8 +143,8 @@ alias vc='code'  # gui code editor
 #Display specs
 #neofetch
 
-#Display Pokemon
-pokemon-colorscripts --no-title -r 1,3,6
+# #Display Pokemon
+# pokemon-colorscripts --no-title -r 1,3,6
 
 #Display gif
 #kitten icat --align left ~/.config/neofetch/pochita.gif

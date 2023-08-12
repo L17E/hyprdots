@@ -30,7 +30,6 @@
            "7": [],
            "8": [],
            "9": [],
-           "10": []
        }
    },
 
@@ -41,8 +40,6 @@
             "tittu@kryptonite:(.*)": "$1 ",
             "(.*) — Mozilla Firefox": "$1 󰈹",
             "(.*)Mozilla Firefox": "Firefox 󰈹",
-            "(.*) - Visual Studio Code": "$1 󰨞",
-            "(.*)Visual Studio Code": "Code 󰨞",
             "(.*) — Dolphin": "$1 󰉋",
             "(.*)Spotify": "Spotify 󰓇",
             "(.*)Steam": "Steam 󰓓"
@@ -69,8 +66,8 @@
     },
 
     "clock": {
-        "format": "{: %I:%M %p 󰃭 %a %d}",
-        "format-alt": "{:󰥔 %H:%M  %b %Y}",
+        "format": "{: %H:%M}",
+        "format-alt": "{:󰃭  %a, %d.%B.%Y}",
         "tooltip-format": "<tt><big>{calendar}</big></tt>"
     },
 
