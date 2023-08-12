@@ -187,23 +187,17 @@ pokemon-colorscripts-git | display pokemon sprites
 | :-:   | :-:   | :-:   | ---    |
 | `Super` | `Q` | | Quit active/focused window
 | `Super` | `del` | | quit hyprland session
-| `Super` | `W` | | toggle Window on focus to float
-| `Alt` | `enter` | | toggle window on focus to fullscreen
+| `Super` | `T` | | toggle Window on focus to float
+| `Super` | `F` | | toggle window on focus to fullscreen
 | `Super` | `G` | | disable hypr effects for Gamemode
-| `Super` | `T` | | launch kitty Terminal
+| `Super` | `Enter` | | launch kitty Terminal
 | `Super` | `E` | | launch dolphin file Explorer
-| `Super` | `V` | | launch Vs code
-| `Super` | `F` | | launch Firefox
-| `Super` | `A` | | launch desktop Applications (rofi)
-| `Super` | `tab` | | switch open applications (rofi)
-| `Super` | `R` | | browse system files (rofi)
-| `F10` | | | mute audio output (toggle)
-| `F11` | | | decrease volume (hold)
-| `F12` | | | increase volume (hold)
-| `Super` | `L` | | lock screen
-| `Super` | `backspace` | | logout menu
-| `Super` | `P` | | screenshot snip
-| `Super` | `Alt` | `P` | print current screen and save to ~/Apps/grim/
+| `Super` | `W` | | launch desktop Applications (rofi)
+| `Super` | `tab` | | switch open applications 
+| `F9` | | | mute audio output (toggle)
+| `F10` | | | decrease volume (hold)
+| `F11` | | | increase volume (hold)
+| `Super` | `S` | | screenshot snip
 | `Super` | `RightClick` | | resize the window 
 | `Super` | `LeftClick` | | change the window position
 | `Super` | `MouseScroll` | | cycle through workspaces
@@ -214,7 +208,6 @@ pokemon-colorscripts-git | display pokemon sprites
 | `Super` | `Alt` | `left` | previous wallpaper
 | `Super` | `Alt` | `up` | next waybar mode
 | `Super` | `Alt` | `down` | previous waybar mode
-| `Super` | `shift` | `T` | theme select menu
 
 </details>
 

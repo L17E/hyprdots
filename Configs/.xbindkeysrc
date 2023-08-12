@@ -1,0 +1,5 @@
+"xdotool keyup --delay 0 --clearmodifiers Button2"
+    b:2
+
+"xbindkeys -n -n -e 'ButtonRelease 2'"
+    Release + b:2

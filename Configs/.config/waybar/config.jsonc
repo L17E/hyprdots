@@ -92,14 +92,14 @@
             "mpv": "🎵"
         },
         "status-icons": {
-            "paused": "⏸"
+            "paused": "╵╵"
         },
         // "ignored-players": ["firefox"]
     },
 
     "clock": {
-        "format": "{: %I:%M %p 󰃭 %a %d}",
-        "format-alt": "{:󰥔 %H:%M  %b %Y}",
+        "format": "{:  %H:%M }",
+        "format-alt": "{:󰃭  %a, %d %B}",
         "tooltip-format": "<tt><big>{calendar}</big></tt>"
     },
 
