@@ -102,21 +102,18 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias  l='exa -l  --icons'
-alias ls='exa -1  --icons'
-alias ll='exa -la --icons'
-alias ld='exa -lD --icons'
 
-alias in='sudo pacman -S' # install package
-alias un='sudo pacman -Rns' # uninstall package
-alias up='sudo pacman -Syu' # update system/package/aur
-alias pl='pacman -Qs' # list installed package
-alias pa='pacman -Ss' # list availabe package
-alias pc='sudo pacman -Sc' # remove unused cache
-alias po='pacman -Qtdq | sudo pacman -Rns -' # remove unused packages, also try > pacman -Qqd | pacman -Rsu --print -
+alias pacs='sudo pacman -S' # install package
+alias pacr='sudo pacman -Rns' # uninstall package
+# alias up='sudo pacman -Syu' # update system/package/aur
+# alias pl='pacman -Qs' # list installed package
+# alias pa='pacman -Ss' # list availabe package
+# alias pc='sudo pacman -Sc' # remove unused cache
+alias pac-unused='pacman -Qtdq | sudo pacman -Rns -' # remove unused packages, also try > pacman -Qqd | pacman -Rsu --print -
 
 alias vim=nvim
 alias v=nvim
+
 alias cls=clear
 alias q=exit
 
