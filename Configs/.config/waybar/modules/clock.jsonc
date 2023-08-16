@@ -1,6 +1,6 @@
     "clock": {
         "format": "{:  %H:%M }",
-        "format-alt": "{:󰃭  %a, %d %B}",
+        "format-alt": "{:󰃭  %a, %d.%m}",
         "tooltip-format": "<tt><big>{calendar}</big></tt>",
         "timezone": "Europe/Moscow"
     },
